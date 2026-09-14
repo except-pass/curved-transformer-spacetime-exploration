@@ -1,0 +1,4 @@
+# Versions used to verify the recovered experiment on 2026-09-14.
+numpy==2.3.5
+sympy==1.14.0
+matplotlib==3.10.8
