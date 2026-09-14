@@ -1,0 +1,90 @@
+[
+  {
+    "path": "assets/transformer-explainer.png",
+    "size": [
+      1844,
+      775
+    ],
+    "rgb_sha256": "27bfdf25d1aaa6d1c51940e1ff516895c04fb7942174eecf5028340d1ec3dd0d",
+    "file_sha256": "87c31ea88ea866644d88d3e4f1d8592dfc23683889992edf6dc441dddea7c39b",
+    "git_blob_sha": "ed5647c6a44c553155ce004c00cbbced32d7f941",
+    "bytes": 285258
+  },
+  {
+    "path": "assets/qkv-marketplace-causal.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "rgb_sha256": "d4a5b1ddea67c9ec80c491e59e11350ef7267f388375f12a1304f0bbc540a8ee",
+    "file_sha256": "3445cfcd3c60472ea715d31335d0c540a207b794cb75f1ba96ea4118952eeae4",
+    "git_blob_sha": "a24763f257490d59b02746fb4e736a7a0893471c",
+    "bytes": 1310404
+  },
+  {
+    "path": "assets/token-through-layers.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "rgb_sha256": "937471cfb61559dbe69c33728f674973c0f8d3da033714b53833800846b7336d",
+    "file_sha256": "a7232d6f65fd4f4ab6d0a5b64698eaaa6b9a1cf3f411fe062a2082201a54791c",
+    "git_blob_sha": "973b75ef2822c2d3c51a3f41e741e832d0b818ed",
+    "bytes": 1183436
+  },
+  {
+    "path": "assets/parallel-transport.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "rgb_sha256": "1f43ec5335ce4d9c6d6c8397ae25dd9f9b81cf9439825be8f63d4d7fdd282b2d",
+    "file_sha256": "ba0e2cc7d5fe8b793303dc3122329f101039e479a132f948e0a1178af0ecc588",
+    "git_blob_sha": "149a0d0c588546f1fb0b881aa9d776b137268d05",
+    "bytes": 1787570
+  },
+  {
+    "path": "assets/drosophila-transformer.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "rgb_sha256": "dfb41c6925bbcd61fde69e729dcb8aa96a0683e09e9fcc477fe1838a5caa5ca4",
+    "file_sha256": "c6b1e30314a23c9d0c8c61de9b9a3ca0edcc70418b1871800e86284ddeb97eeb",
+    "git_blob_sha": "4567155ea1fd67bc2d4d4cc71850874aa47939de",
+    "bytes": 1793245
+  },
+  {
+    "path": "assets/singularity.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "rgb_sha256": "1fe8068202f85ca1ee3864862a5f835863fb08f7d1f31cace20fc820231aefc2",
+    "file_sha256": "2e624f64a57a41962c93d47e3c683eeffbb703f19f5838f24c6f483fdcb460cc",
+    "git_blob_sha": "8ec1f4330a1e0bfd2fad8cf17dc2af9333b9692b",
+    "bytes": 1312704
+  },
+  {
+    "path": "assets/attention-in-flatland.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "rgb_sha256": "9bd0037d5a9a1be09d4eaf64725266e9fc0b3a82b5914c175e7baef385c1d60e",
+    "file_sha256": "2202f90d05099ae28af987c224c57c51d0ecb07392bfc776167b355e57dc38e3",
+    "git_blob_sha": "404cbe0754ad1fae2711580e78bf809376e9f0f5",
+    "bytes": 1308464
+  },
+  {
+    "path": "assets/bent-paths-flat-spaces.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "rgb_sha256": "bee1f4af20edd7fc71beeab171479ab9e5f61758938ee09257d5ad8c94ef77e0",
+    "file_sha256": "164aab4fb8b7548bbefabf22b6cfd75b9d65386f20e053ef09efc9614f7335b9",
+    "git_blob_sha": "2af1dcd0c5d4c3da8131e1ba9807c590b15b9ac9",
+    "bytes": 1569068
+  }
+]
