@@ -420,7 +420,7 @@ $$
 But
 
 $$
-\operatorname{rank}(G)\leq3.
+\mathrm{rank}(G)\leq3.
 $$
 
 An invertible $5\times5$ matrix must have rank 5. This $G$ can have rank at most 3.
