@@ -256,9 +256,12 @@ Let’s walk from our tiny Transformer to the object the paper calls an **effect
 
 Our Drosophila Transformer has two token positions, each with a three-dimensional working representation. At some layer we can therefore write
 
-$$
-X=\begin{bmatrix}x_A\\x_B\end{bmatrix},\qquad X\in\mathbb{R}^{2\times3}.
-$$
+```math
+X=\begin{bmatrix}
+x_A \\
+x_B
+\end{bmatrix},\qquad X\in\mathbb{R}^{2\times3}.
+```
 
 Each row is the current location of one token representation in our three-dimensional representation space.
 
@@ -302,15 +305,21 @@ $$
 
 Explicitly,
 
-$$
-G=\begin{bmatrix}q_A^\top k_A & q_A^\top k_B\\q_B^\top k_A & q_B^\top k_B\end{bmatrix}.
-$$
+```math
+G=\begin{bmatrix}
+q_A^\top k_A & q_A^\top k_B \\
+q_B^\top k_A & q_B^\top k_B
+\end{bmatrix}.
+```
 
 Perhaps numerically we obtain something like
 
-$$
-G=\begin{bmatrix}1.2 & -0.4\\2.1 & 0.7\end{bmatrix}.
-$$
+```math
+G=\begin{bmatrix}
+1.2 & -0.4 \\
+2.1 & 0.7
+\end{bmatrix}.
+```
 
 This is completely ordinary Transformer computation. These numbers are the raw query-key compatibility scores, before scaling, masking, and softmax.
 
@@ -548,9 +557,13 @@ Well here we have a known flat geometry, and the token still takes a crooked pat
 
 M = WWᵀ. It is the same 3×3 ruler everywhere.
 
-$$
-\begin{bmatrix}1.563 & 0.435 & 0.188\\0.435 & 0.883 & 0.160\\0.188 & 0.160 & 1.273\end{bmatrix}
-$$
+```math
+\begin{bmatrix}
+1.563 & 0.435 & 0.188 \\
+0.435 & 0.883 & 0.160 \\
+0.188 & 0.160 & 1.273
+\end{bmatrix}
+```
 
 **Why flat?** M has no position variable. Therefore every spatial derivative of M is zero; its Levi-Civita curvature is zero.
 
@@ -560,9 +573,12 @@ This changes because the token states X change.
 
              Input             Layer 1             Layer 2             Layer 3             Layer 4           
 
-$$
-\begin{bmatrix}0.952 & -0.438\\-0.438 & 0.459\end{bmatrix}
-$$
+```math
+\begin{bmatrix}
+0.952 & -0.438 \\
+-0.438 & 0.459
+\end{bmatrix}
+```
 
 Here **G is not a location or a path**. It is a 2×2 table of token-to-token compatibility scores.
 
